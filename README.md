@@ -1,4 +1,4 @@
-# HealthCare: Intelligent Student Wellness Platform
+# MindCare: Intelligent Student Wellness Platform
 
 MindCare is a comprehensive, AI-driven wellness and emergency-response web application designed for students. The platform leverages machine learning for predictive wellness routines, natural language processing for real-time conversational analysis, and integrated telecommunications mapping to support holistic tracking and urgent interventions.
 
