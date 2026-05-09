@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 // Backend base URL
-export const CHAT_API_BASE = import.meta.env.VITE_BACKEND_URL || "http://localhost:3001";
+export const CHAT_API_BASE = import.meta.env.VITE_BACKEND_URL || "http://localhost:8080/api";
 
 export async function sendChatMessage(userMessage: string, userId?: string): Promise<string> {
   const resp = await fetch(`${CHAT_API_BASE}/chat`, {
